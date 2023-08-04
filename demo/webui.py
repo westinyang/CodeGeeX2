@@ -65,7 +65,7 @@ def get_model(args):
 
 
 def add_code_generation_args(parser):
-    group = parser.add_argument_group(title="CodeGeeX2 DEMO")
+    group = parser.add_argument_group(title="CodeGeeX2-6B")
     group.add_argument(
         "--model-path",
         type=str,
